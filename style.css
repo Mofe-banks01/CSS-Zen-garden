@@ -250,6 +250,7 @@ aside ul li {
 @media (max-width: 62em) {
   .intro h2 {
     font-size: 4.77775em;
+    margin-left: 0.45em;
   }
   section{
     width: 100%;
@@ -293,7 +294,7 @@ aside ul li {
   }
   .participation {
     position: relative;
-    padding: 1.725rem 1.725rem 0.9rem 1.725rem;
+    padding: 1.725rem 1.125rem 0.9rem 1.125rem;
      top: 5%;
     left: 1.5%;
     bottom: 30%;
