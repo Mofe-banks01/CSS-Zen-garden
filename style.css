@@ -244,11 +244,16 @@ aside ul li {
 }
 /****************************/
 /* BELOW 990px */
+/* STANDARD MEDIA QUERIES WIDTH */
 /****************************/
 
 @media (max-width: 62em) {
   .intro h2 {
-    font-size: 6rem;
+    font-size: 3.115em;
+  }
+  section{
+    width: 100%;
+    z-index: 6;
   }
   .intro-header {
     margin-bottom: 0.3em;
@@ -310,6 +315,13 @@ aside ul li {
 /* BELOW 830px */
 /****************************/
 @media (max-width: 50em) {
+   .intro h2 {
+    font-size: 3.005em;
+  }
+  section{
+    width: 100%;
+    z-index: 6;
+  }
   .preamble {
     max-height: 50%;
   }
