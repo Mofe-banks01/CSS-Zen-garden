@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -325,4 +326,333 @@ aside ul li {
     margin-top: 8.8rem;
     width: 95.5%;
   }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", Frutiger, "Frutiger Linotype", Univers, Calibri,
+    "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
+    "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  padding: 5%;
+}
+.page-wrapper {
+  z-index: 3;
+}
+#css-zen-garden {
+  background-color: #f0f8ffd8;
+}
+.intro {
+  background-color: #579fddd3;
+  padding: 5% 5%;
+  z-index: 3;
+  max-width: 100%;
+  position: relative;
+}
+header {
+  display: block;
+}
+.intro-header {
+  background: #ea2e49;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  font-size: 2.755rem;
+  text-transform: uppercase;
+}
+section {
+  width: 66.6%;
+  position: relative;
+}
+.intro h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 9.979757em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+.summary {
+  padding: 9.35rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.summary p {
+  padding-bottom: 3.1rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.summary p:last-child {
+  margin-bottom: 5rem;
+  border-top: 1.5px solid red;
+  padding-top: 3rem;
+}
+.summary p a {
+  text-decoration: none;
+  color: #fff;
+}
+.summary p a:hover {
+  text-decoration: overline;
+  color: #000000;
+  -webkit-transition: all 0.977s;
+}
+.preamble {
+  background-color: #ffffffd8;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+  max-height: 30.75rem;
+  position: relative;
+}
+.preamble h3 {
+  font-size: 2.25em;
+  font-weight: 210;
+  margin-bottom: 1.9rem;
+}
+.preamble p {
+  font-size: 1.25em;
+  font-weight: 210;
+  margin-bottom: 1.75rem;
+  color: #000000;
+}
+.main {
+  position: relative;
+  z-index: 1;
+  background-color: #579fddd3;
+  padding: 5%;
+  z-index: 2;
+}
+.explanation {
+  padding: 0 1.5rem 0 2.5rem;
+  width: 57.6%;
+  position: relative;
+}
+.explanation h3 {
+  font-size: 2.95em;
+  letter-spacing: 0.9px;
+  color: #fff;
+  max-height: 6rem;
+  margin: 1rem 0;
+}
+.explanation p {
+  color: #fff;
+  font-size: 1.25em;
+  max-width: 29rem;
+  margin-right: 2rem;
+  margin-bottom: 1.6em;
+}
+.participation {
+  padding: 2.1rem 2.5rem 1.5rem 2.1rem;
+  width: 49.5%;
+  position: relative;
+  background-color: #ff0026c9;
+  border-radius: 2.5px;
+  max-height: 92.5rem;
+  margin-top: -31.3rem;
+  /* margin-left: 33.25rem;  */
+  top: 30%;
+  left: 52.5%;
+}
+.participation h3 {
+  font-size: 2.95em;
+  letter-spacing: 0.9px;
+  color: #fff;
+  max-height: 6rem;
+  margin: 1rem 0;
+}
+.participation p {
+  color: #fff;
+  font-size: 1.25em;
+  max-width: 29rem;
+  margin-right: 2rem;
+  margin-bottom: 1.6em;
+}
+.benefits {
+  background-color: #ffffffd8;
+  margin-top: 7rem;
+  margin-bottom: -24.5rem;
+  position: relative;
+  padding: 5% 8% 5% 3%;
+  width: 32.75%;
+}
+.benefits h3 {
+  font-size: 2.75rem;
+  margin-bottom: 2.1rem;
+}
+.benefits p {
+  font-size: 1.39em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.requirements {
+  background-color: #ffffffd8;
+  position: relative;
+  padding: 5% 8% 5% 3%;
+  width: 65.75%;
+  height: 90.75%;
+  top: 100%;
+  left: 32.7%;
+  bottom: 70%;
+  z-index: 3;
+}
+.requirements h3 {
+  font-size: 2.75rem;
+  margin: 0.375rem 0;
+}
+.requirements p {
+  font-size: 1.457em;
+  margin: 1.75rem 0;
+}
+footer {
+  background: rgba(246, 247, 146, 0.9);
+  clear: both;
+  color: #fff;
+  padding: 1em 5%;
+  width: 50%;
+}
+footer a {
+  font-weight: 590;
+  margin-right: 3em;
+  color: #000000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.extra1 {
+  background: rgba(51, 55, 69, 0.9);
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  top: 0;
+  width: 40%;
+  z-index: 1;
+}
+.sidebar {
+  background: rgba(246, 247, 146, 0.9);
+  padding: 5%;
+  position: absolute;
+  right: 10%;
+  top: 9.05%;
+  width: 32.75%;
+  z-index: 4;
+}
+.select {
+  font-size: 2rem;
+  font-size: 2.25em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+aside ul li {
+  color: rgba(0, 0, 0, 0.4);
+  list-style: none;
+  margin: 0;
+  font-size: 1.1rem;
+
+  padding: 0 0 0.825em 0;
+}
+.design-name {
+  text-decoration: none;
+  font-size: 1.25em;
+}
+.archives {
+  font-size: 2.25em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+.archives a {
+  text-decoration: none;
+  font-size: 1.25em;
+}
+/****************************/
+/* BELOW 990px */
+/****************************/
+
+@media (max-width: 62em) {
+  .intro h2 {
+    font-size: 6rem;
+  }
+  .intro-header {
+    margin-bottom: 0.3em;
+    font-size: 1.5rem;
+  }
+  .summary {
+    padding: 4rem 1rem;
+  }
+  .summary p {
+    font-size: 1.15rem;
+    padding-bottom: 2.1rem;
+  }
+  .summary p:last-child {
+    margin-bottom: 2.05rem;
+  }
+  .summary p a:hover {
+    text-decoration: underline;
+    -webkit-transition: all 0.575s;
+  }
+  .preamble {
+    max-height: 40%;
+  }
+  .main {
+    position: relative;
+    z-index: 1;
+    background-color: #579fddd3;
+    padding: 5% 8.75%;
+    z-index: 2;
+  }
+  .explanation {
+    padding: 0 1.5rem 0 0.1rem;
+    width: 100%;
+    position: relative;
+  }
+  .explanation h3{
+    margin: 1.5rem 0.75rem 1.5rem 0rem;
+  }
+  .participation {
+    position: relative;
+    padding: 1.725rem 1.725rem 0.9rem 1.725rem;
+     top: 5%;
+    left: 1.5%;
+    bottom: 30%;
+    z-index: 1;
+    margin-top: 8.8rem;
+    width: 90.5%;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .benefits{
+    
+  }
+  
+}
+/*****************************/
+/* BELOW 830px */
+/****************************/
+@media (max-width: 50em) {
+  .preamble {
+    max-height: 50%;
+  }
+  .extra1 {
+    width: 35%;
+  }
+  .participation {
+    position: relative;
+    padding: 1.725rem;
+     top: 5%;
+    left: 1.5%;
+    bottom: 30%;
+    z-index: 1;
+    margin-top: 8.8rem;
+    width: 95.5%;
+  }
+>>>>>>> 08fa6781b8bfdae2516b31787614ec4a8c18379a
 }
