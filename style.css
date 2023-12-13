@@ -71,7 +71,7 @@ section {
 .summary p a:hover {
   text-decoration: overline;
   color: #000000;
-  -webkit-transition: all 0.9707s;
+  -webkit-transition: all 0.9757s;
 }
 .preamble {
   background-color: #ffffffd8;
