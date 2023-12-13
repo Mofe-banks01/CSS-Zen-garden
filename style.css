@@ -301,6 +301,9 @@ aside ul li {
     margin-top: 8.8rem;
     width: 90.5%;
   }
+  .participation h3{
+    font-size: 2.201rem;
+  }
   .summary p{
     font-size: 1.8rem;
   }
@@ -312,15 +315,17 @@ aside ul li {
   .benefits{
     
   }
+  
   .sidebar{
     position: relative ;
     right: 10%;
     left: 10%;
     top: 9.05%;
     width: 75.75%;
+    padding: 5% 10%;
   }
   .select{
-    font-size: 7.5rem;
+    font-size: 2.65rem;
   }
 }
 /*****************************/
