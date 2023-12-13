@@ -203,7 +203,7 @@ footer a {
   z-index: 1;
 }
 .sidebar {
-  background: rgba(246, 247, 146, 0.9);
+  background: rgba(205, 207, 79, 0.9);
   padding: 5%;
   position: absolute;
   right: 10%;
@@ -249,7 +249,7 @@ aside ul li {
 
 @media (max-width: 62em) {
   .intro h2 {
-    font-size: 3.77775em;
+    font-size: 4.77775em;
   }
   section{
     width: 100%;
@@ -301,6 +301,9 @@ aside ul li {
     margin-top: 8.8rem;
     width: 90.5%;
   }
+  .summary p{
+    font-size: 1.8rem;
+  }
   .main{
     display: flex;
     flex-direction: column;
@@ -309,7 +312,16 @@ aside ul li {
   .benefits{
     
   }
-  
+  .sidebar{
+    position: relative ;
+    right: 10%;
+    left: 10%;
+    top: 9.05%;
+    width: 75.75%;
+  }
+  .select{
+    font-size: 7.5rem;
+  }
 }
 /*****************************/
 /* BELOW 830px */
