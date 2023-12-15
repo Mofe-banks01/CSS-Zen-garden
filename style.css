@@ -294,17 +294,20 @@ aside ul li {
   .explanation {
     padding: 0 0.1rem 0 0.1rem;
     width: 100%;
-   
+    position: relative;
+    max-height: 100%;
   }
   .explanation h3 {
-    margin: 1.5rem 0.75rem 1.9rem 0rem;
+    margin: 1.5rem 0.75rem 1.5rem 0rem;
+    max-width: 15rem;
+    font-size: 2.1rem;
   }
   .explanation p{
     margin: 1.9rem 0;
   }
   .participation {
     position: relative;
-    padding: 1.725rem 0.975rem 1rem 0.975rem;
+    padding: 1.3rem 0.5rem 1rem 0.7rem;
     top: 5%;
     left: 1.5%;
     bottom: 30%;
@@ -313,10 +316,10 @@ aside ul li {
     width: 100%;
   }
   .participation h3 {
-    font-size: 2.301rem;
+    font-size: 1.9rem;
   }
   .participation p {
-    margin-right: 1.2rem;
+    margin-right: 1rem;
   }
   .summary p {
     font-size: 1.8rem;
@@ -332,10 +335,12 @@ aside ul li {
     margin-bottom: 7.15rem;
   }
   .requirements {
-     position: relative;
-   
+    position: relative;
+    left: 15%;
+    right: inherit;
+    padding: 0.3rem 0.75rem;
     width: 100%;
-    margin: 0 1.5rem 0 -1.5rem;
+    margin: 0 1rem 0 -2.4rem;
     /* bottom: 100%;
     left: 100%;
     right: 100%; */
@@ -356,9 +361,11 @@ aside ul li {
   }
   footer {
     background: rgba(246, 247, 146, 0.9);
-    clear: both;
+    position: relative;
     color: #fff;
-    padding: 1em 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     
   }
