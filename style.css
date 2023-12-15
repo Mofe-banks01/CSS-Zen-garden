@@ -346,7 +346,8 @@ aside ul li {
     right: 100%; */
   }
   .requirements h3 {
-    text-align: center;
+    
+     font-size: 1.9rem;
   }
   .sidebar {
     position: relative;
