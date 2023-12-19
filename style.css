@@ -3,24 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  background: #daede2;
+  padding: 5%;
+}
 body {
   font-family: "Open Sans", Frutiger, "Frutiger Linotype", Univers, Calibri,
     "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
     "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
     Helvetica, Arial, sans-serif;
-  padding: 5%;
+  background-color: #77c4d3;
 }
 .page-wrapper {
   z-index: 3;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #579fddd3;
 }
 #css-zen-garden {
   background-color: #f0f8ffd8;
 }
 .intro {
-  background-color: #579fddd3;
+
   padding: 5% 5%;
-  z-index: 3;
-  max-width: 100%;
+  z-index: 1;
+  max-width: 66.6%;
   position: relative;
 }
 header {
@@ -29,10 +37,14 @@ header {
 .intro-header {
   background: #ea2e49;
   color: #fff;
+  font-size: 2em;
   display: inline-block;
+  max-height: 4em;
+  max-width: 15em;
   margin-bottom: 1em;
   padding: 0.5em 1em;
-  font-size: 2.755rem;
+  font-weight: 300;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 section {
@@ -43,14 +55,19 @@ section {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
   font-weight: 900;
-  font-size: 9.979757em;
+  font-size: 10em;
   letter-spacing: 1px;
   line-height: 1em;
 }
 .summary {
-  padding: 9.35rem 0;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2em;
+  max-height: 50rem;
+  padding: 3.35rem 0;
+  font-weight: 300;
   position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.775px;
+  line-height: 1.9em;
 }
 .summary p {
   padding-bottom: 3.1rem;
@@ -124,6 +141,7 @@ section {
   border-radius: 2.5px;
   max-height: 92.5rem;
   margin-top: -31.3rem;
+  z-index: 5;
   /* margin-left: 33.25rem;  */
   top: 30%;
   left: 52.5%;
@@ -198,17 +216,17 @@ footer a {
   right: 0;
   position: fixed;
   top: 0;
-  width: 40%;
-  z-index: 1;
+  width: 30%;
+  z-index: 2;
 }
 .sidebar {
-  background: rgba(205, 207, 79, 0.9);
+background-color: rgba(246,247,146,0.9);
   padding: 5%;
   position: absolute;
-  right: 10%;
-  top: 9.05%;
+  right: 1%;
+  top: 3.05%;
   width: 32.75%;
-  z-index: 4;
+  z-index: 13;
 }
 .select {
   font-size: 2rem;
@@ -247,11 +265,13 @@ aside ul li {
 /****************************/
 
 @media (max-width: 62em) {
-  .intro{
+  body {
+    font-size: 110%;
+  }
+  .intro {
     background-color: #148bf3d3;
   }
   .intro h2 {
-    font-size: 4.77775em;
     margin-left: 0.45em;
   }
   section {
@@ -302,7 +322,7 @@ aside ul li {
     max-width: 15rem;
     font-size: 2.1rem;
   }
-  .explanation p{
+  .explanation p {
     margin: 1.9rem 0;
   }
   .participation {
@@ -346,8 +366,7 @@ aside ul li {
     right: 100%; */
   }
   .requirements h3 {
-    
-     font-size: 1.9rem;
+    font-size: 1.9rem;
   }
   .sidebar {
     position: relative;
@@ -368,9 +387,8 @@ aside ul li {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    
   }
-  footer a{
+  footer a {
     margin-right: 4em;
   }
 }
