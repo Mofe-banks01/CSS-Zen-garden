@@ -343,12 +343,14 @@ aside ul li {
   }
   .participation {
     position: relative;
-    padding: 5%;
+  
     top: 5%;
     bottom: 30%;
     z-index: 1;
     margin-top: 8.8rem;
     width: 100%;
+    padding: 0 0.1rem 0 0.1rem;
+    max-height: 100%;
   }
   .participation h3 {
     font-size: 1.9rem;
