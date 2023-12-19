@@ -363,15 +363,22 @@ aside ul li {
     z-index: 1;
     margin-top: 8.8rem;
     width: 100%;
-    padding: 0 0.1rem 0 0.1rem;
+  line-height: 1.5em;
     max-height: 100%;
+     padding: 0.5em 0;
   }
   .participation h3 {
-    font-size: 1.5em;
+    font-size: 2.25em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 0.5em 0 0.25em 0;
   }
   .participation p {
-    margin-right: 1rem;
+    
     font-size: 1em;
+    line-height: 1.5em;
+    padding: 0.5em 0;
   }
   .summary p {
     font-size: 1.8rem;
@@ -455,4 +462,10 @@ aside ul li {
     margin-top: 8.8rem;
     width: 95.5%;
   }
+}
+
+@media screen and (min-width: 1px){
+body {
+    font-size: 85%;
+}
 }
