@@ -15,7 +15,7 @@ body {
   background-color: #77c4d3;
 }
 .page-wrapper {
-  z-index: 3;
+  z-index: 2;
   margin: 0;
   padding: 0;
   position: relative;
@@ -25,7 +25,6 @@ body {
   background-color: #f0f8ffd8;
 }
 .intro {
-
   padding: 5% 5%;
   z-index: 1;
   max-width: 66.6%;
@@ -109,56 +108,58 @@ section {
 }
 .main {
   position: relative;
-  z-index: 1;
-  background-color: #579fddd3;
-  padding: 5%;
   z-index: 2;
+  padding: 5%;
 }
 .explanation {
-  padding: 0 1.5rem 0 2.5rem;
-  width: 57.6%;
+  padding: 5%;
+  width: 53.6%;
   position: relative;
 }
 .explanation h3 {
-  font-size: 2.95em;
+  font-size: 2.5em;
   letter-spacing: 0.9px;
   color: #fff;
   max-height: 6rem;
-  margin: 1rem 0;
+
+  padding: 0.5em 0px 0.25em;
 }
 .explanation p {
   color: #fff;
-  font-size: 1.25em;
-  max-width: 29rem;
-  margin-right: 2rem;
-  margin-bottom: 1.6em;
+  margin-right: 0%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0.5em 0px;
 }
 .participation {
-  padding: 2.1rem 2.5rem 1.5rem 2.1rem;
+  padding: 5%;
   width: 49.5%;
+  height: 90%;
   position: relative;
-  background-color: #ff0026c9;
+  background-color: #ea2e49e6;
   border-radius: 2.5px;
   max-height: 92.5rem;
   margin-top: -31.3rem;
-  z-index: 5;
+  z-index: 2;
   /* margin-left: 33.25rem;  */
-  top: 30%;
-  left: 52.5%;
+
+  left: 50%;
 }
 .participation h3 {
   font-size: 2.95em;
   letter-spacing: 0.9px;
   color: #fff;
   max-height: 6rem;
-  margin: 1rem 0;
+  margin: 0rem 0;
 }
 .participation p {
-  color: #fff;
-  font-size: 1.25em;
-  max-width: 29rem;
-  margin-right: 2rem;
-  margin-bottom: 1.6em;
+ color: #fff;
+  margin-right: 0%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0.5em 0px;
 }
 .benefits {
   background-color: #ffffffd8;
@@ -183,10 +184,10 @@ section {
   padding: 5% 8% 5% 3%;
   width: 65.75%;
   height: 90.75%;
-  top: 100%;
+  top: 10%;
   left: 32.7%;
   bottom: 70%;
-  z-index: 3;
+  z-index: 2;
 }
 .requirements h3 {
   font-size: 2.75rem;
@@ -217,16 +218,16 @@ footer a {
   position: fixed;
   top: 0;
   width: 30%;
-  z-index: 2;
+  z-index: 1;
 }
 .sidebar {
-background-color: rgba(246,247,146,0.9);
+  background-color: rgba(246, 247, 146, 0.9);
   padding: 5%;
   position: absolute;
-  right: 1%;
-  top: 3.05%;
+  right: 0%;
+  top: 1.5%;
   width: 32.75%;
-  z-index: 13;
+  z-index: 2;
 }
 .select {
   font-size: 2rem;
@@ -268,14 +269,22 @@ aside ul li {
   body {
     font-size: 110%;
   }
+  .page-wrapper{
+      z-index: 2;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #579fddd3;
+  }
   .intro {
-    background-color: #148bf3d3;
+    width: 100%;
   }
   .intro h2 {
-    margin-left: 0.45em;
+   font-size: 5em;
   }
   section {
-    width: 100%;
+    width: 66.6%;
+    position: relative;
     z-index: 6;
   }
   .intro-header {
@@ -303,12 +312,7 @@ aside ul li {
     font-size: 2.75em;
   }
   .main {
-    display: flex;
-    flex-direction: column;
-    /* position: relative; */
-    z-index: 1;
-    background-color: #148bf3d3;
-    padding: 5% 8.75%;
+    padding: 5% ;
     z-index: 2;
   }
   .explanation {
