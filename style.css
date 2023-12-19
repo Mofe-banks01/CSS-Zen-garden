@@ -339,11 +339,10 @@ aside ul li {
     font-size: 2.1rem;
   }
   .explanation p {
-    margin: 1.9rem 0;
+    margin: 0em 0;
   }
   .participation {
     position: relative;
-  
     top: 5%;
     bottom: 30%;
     z-index: 1;
@@ -353,10 +352,10 @@ aside ul li {
     max-height: 100%;
   }
   .participation h3 {
-    font-size: 1.9rem;
+    font-size: 1.5em;
   }
   .participation p {
-    margin-right: 0.1rem;
+    margin-right: 1rem;
   }
   .summary p {
     font-size: 1.8rem;
