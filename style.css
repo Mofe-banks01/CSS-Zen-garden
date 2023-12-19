@@ -161,6 +161,7 @@ section {
   z-index: 2;
   bottom: auto;
   left: 50%;
+  margin-top: -63.5%;
 }
 .participation h3 {
   font-size: 2.95em;
