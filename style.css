@@ -34,7 +34,7 @@ h2 {
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: rgba(93, 170, 238, 0.63);
+  background-color: rgba(58, 103, 143, 0.795);
 }
 #css-zen-garden {
   background-color: #f0f8ffd8;
@@ -73,9 +73,8 @@ section {
   line-height: 1em;
 }
 .summary {
-  margin-top: 2em;
   max-height: 50rem;
-  padding: 3.35rem 0;
+   padding: 6rem 0 6rem 0;
   position: relative;
   text-transform: uppercase;
   letter-spacing: 0.775px;
@@ -83,15 +82,14 @@ section {
 }
 .summary p {
   font-weight: 300;
-  padding-bottom: 3.1rem;
-  font-size: 1.35em;
+  padding: 1rem 0;
+   font-size: 1.35em;
   color: #fff;
 }
 
 .summary p:last-child {
-  margin-bottom: 5rem;
   border-top: 1.5px solid red;
-  padding-top: 3rem;
+  padding-top: 1rem ;
 }
 .summary p a {
   text-decoration: none;
@@ -161,7 +159,7 @@ section {
   z-index: 2;
   bottom: auto;
   left: 50%;
-  margin-top: -63.5%;
+  /* margin-top: -63.5%; */
 }
 .participation h3 {
   font-size: 2.95em;
@@ -180,15 +178,14 @@ section {
 }
 .benefits {
   background-color: #ffffffd8;
-  margin-top: 7rem;
-  margin-bottom: -30%;
+ margin-top: 12%;
   position: relative;
   padding: 5% 5% 5% 3%;
   width: 30%;
 }
 .benefits h3 {
   font-size: 2.25rem;
-  margin-bottom: 2.1rem;
+  padding: 0.5em 0 0.25em 0;
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -196,6 +193,7 @@ section {
 .benefits p {
   color: #000000;
   margin-right: 0%;
+   font-size: 17.6px;
 }
 .requirements {
   background-color: #ffffffd8;
@@ -211,12 +209,13 @@ section {
 }
 .requirements h3 {
   font-size: 2.25em;
-  margin: 0.375rem 0;
+ padding: 0.5em 0 0.25em 0;
   font-weight: 200;
 }
 .requirements p {
   color: #000000;
   margin-right: 0%;
+  font-size: 17.6px;
 }
 .requirements p:last-child {
   border-top: 1px solid #ea2e49;
@@ -267,12 +266,10 @@ footer a {
   padding: 0.5em 0 0.25em 0;
 }
 aside ul li {
-  color: rgba(0, 0, 0, 0.4);
-  list-style: none;
-  margin: 0;
-  font-size: 1.1rem;
-
-  padding: 0 0 0.825em 0;
+ color: rgba(0,0,0,0.4);
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0.825em 0;
 }
 .design-name {
   text-decoration: none;
@@ -299,7 +296,7 @@ aside ul li {
     font-size: 110%;
   }
   .intro h2 {
-    font-size: 5.95em;
+    font-size: 7.35em;
   }
   .page-wrapper {
     z-index: 2;
@@ -328,10 +325,10 @@ aside ul li {
     padding: 5%;
   }
   .summary {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
   }
   .summary p {
-    font-size: 1em;
+    font-size: 1.1em;
     padding-bottom: 2.1rem;
   }
   .summary p:last-child {
@@ -397,9 +394,7 @@ aside ul li {
     line-height: 1.5em;
     padding: 0.5em 0;
   }
-  .summary p {
-    font-size: 1.8rem;
-  }
+  
 
   .benefits {
     /* position: relative; */
