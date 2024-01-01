@@ -34,7 +34,7 @@ h2 {
   margin: 0;
   padding: 0;
   position: relative;
-  background-color: rgba(58, 103, 143, 0.795);
+  background-color: rgba(36, 124, 201, 0.795);
 }
 #css-zen-garden {
   background-color: #f0f8ffd8;
@@ -471,6 +471,8 @@ aside ul li {
     width: 95.5%;
   }
 }
+
+
 
 @media screen and (min-width: 1px) {
   body {
